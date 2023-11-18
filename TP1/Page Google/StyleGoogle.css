@@ -1,0 +1,155 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+header >a {
+    border: 1px solid black;
+    margin: 0.3%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 5%;
+}
+
+#imageGoogle {
+    display: flex;
+    justify-content: center;
+}
+
+#imageGoogle {
+    display: flex;
+    justify-content: center;
+}
+
+/* input de page google */
+
+.blockinput {
+    display: grid;
+    margin: 26px auto 0;
+    max-width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 46px;
+}
+
+.blockinput:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+
+
+
+
+.blockinput input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000000de;
+    width: 80%;
+
+}
+
+.magnify-icon {
+    width: 20px;
+    height: 20px;
+    margin: 12px 13px 0px 14px;
+    fill: #9aa0a6;
+}
+
+
+/* les deux button */
+
+.blockbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+button {
+    margin-left: 1%;
+    font-size: 16px;
+    padding: 0.5%;
+    background-color: white;
+    color: #3c4043;
+    min-width: 54px;
+    align-items: flex-start;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    color: #202124;
+    cursor: pointer;
+}
+
+main .languag {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+
+
+}
+
+.languag {
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.languag a {
+    border: none;
+    margin: 0;
+}
+
+/* footer*/
+
+footer{
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1%;
+}
+
+footer h4 {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0 0 0 1%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer-second-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0 20px;
+    color: rgb(112, 117, 122);
+  }
+  
+  footer a {
+    color: #5f6368;
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
