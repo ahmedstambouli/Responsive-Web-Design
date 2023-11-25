@@ -1,0 +1,171 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header  a {
+    margin: 1%;
+    text-decoration: none;
+    color: rgb(46, 46, 178);
+margin-left: 1%;
+}
+
+
+.navbar{
+    width: 50%;
+    margin-top: 3%;
+}
+header img{
+    width: 70%;
+}
+
+header a:hover {
+    margin: 1%;
+    text-decoration: none;
+background-color:rgb(46, 46, 178); 
+color: white;
+}
+
+main{
+    background-color: rgb(209, 209, 209);
+
+   
+}
+
+main .para{
+    width: 50%;
+
+}
+
+
+.block{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+
+}
+
+.para .btn button{
+    margin: 1%;
+    background-color: rgb(73, 73, 206);
+    padding: 2%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+.para p{
+    width: 80%;
+}
+ .blockimage 
+{
+    /* background-color: white; */
+    width: 50%;
+    margin-top: 5%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.blockimage img {
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+section .im1 .im2 .im3   {
+    width: 30%;
+}
+section img{
+    width: 90%;
+}
+
+section p{
+    font-size: 10px;
+    width: 90%;
+}
+
+
+
+
+@media  only screen and (max-width: 1024px) {
+    .navbar{
+        width: 60%;
+        margin-top: 3%;
+    }
+   
+    .blockimage 
+    {
+        /* background-color: white; */
+        margin-top: 15%;
+        height: 0%;
+    }
+
+    
+}
+
+
+
+@media  only screen and (max-width: 769px) {
+    .navbar{
+        width: 100%;
+        margin-top: 3%;
+    }
+    .block{
+        margin: auto;
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+    
+    }
+
+    
+}
+
+
+@media  only screen and (max-width: 426px) {
+
+    .navbar{
+        width: 30%;
+        margin-top: 3%;
+        display: inline-grid;
+    }
+    
+    main .para{
+        width: 100%;
+        text-align: center;
+    }
+    .para p{
+        width: 100%;
+    }
+    .block{
+        width: 97%;
+        display: block;
+        padding: 2%;
+    
+    }
+
+    .blockimage 
+    {
+        /* background-color: white; */
+        margin-top: 10%;
+        height: 0%;
+        width: 100%;
+    }
+
+    section {
+        display: inline-block;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+}
